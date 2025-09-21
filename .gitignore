@@ -1,1 +1,21 @@
-node_modules
+
+---
+
+### 📄 `.gitignore`
+
+```gitignore
+# Node modules
+node_modules/
+
+# Tailwind output
+assets/css/output.css
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
