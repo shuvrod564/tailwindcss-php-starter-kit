@@ -1,0 +1,25 @@
+{
+  "name": "tailwindcss-php-starter-kit",
+  "version": "1.0.0",
+  "description": "Starter template for building modern PHP projects with Tailwind CSS — lightweight, fast, and easy to customize.",
+  "main": "index.php",
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./assets/css/output.css --watch",
+    "build:prod": "npx @tailwindcss/cli -i ./src/input.css -o ./assets/css/output.css --minify"
+  },
+  "keywords": [
+    "stater",
+    "kit",
+    "php-tailwind-css"
+  ],
+  "author": "shuvrodev",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^4.1.13"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6"
+  }
+}
